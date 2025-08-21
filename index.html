@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brows</title>
+    <style>
+        #btn-change{
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rgb(236, 47, 236);
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">Welcome Bro..</h1>
+    <button id="btn-change">Click Here Bro</button>
+    <script>
+        document.getElementById('btn-change').addEventListener('click', function(){
+            const textEl = document.getElementById('text')
+            textEl.innerText = 'Bro PUBG Khelba?🙂'
+        })
+    </script>
+</body>
+</html>
